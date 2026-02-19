@@ -1,0 +1,16 @@
+<h2>Signup Page</h2>
+
+<form method="POST">
+    {% csrf_token %}
+
+    Username:
+    <input type="text" name="username"><br><br>
+
+    Password:
+    <input type="password" name="password"><br><br>
+
+    <button type="submit">Signup</button>
+
+</form>
+
+<a href="/accounts/login/">Login</a>
