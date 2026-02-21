@@ -1,29 +1,7 @@
-# Python
+.venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# Virtual env
-.venv/
-venv/
-
-# Django
 db.sqlite3
 media/
-
-# OS
-.DS_Store
-
-# IDE
-.vscode/
-.idea/
-
-# Cache
-.cache/
-
-# Node
-node_modules/
-
-# Environment
 .env
+
